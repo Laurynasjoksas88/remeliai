@@ -1,38 +1,134 @@
-h1 {
+.none {
+    border:0;
+    border-style: none;
+}
+
+.nonetext {
+    color:red;
+}
+
+.dotted {
+    border:1;
+    border-style: dotted;
+ 
+}
+
+.dottedtext {
+    color: red;
+}
+
+.dashed {
+    border:1;
+    border-style: dashed;
+}
+
+.dashedtext {
+    color:red;
+}
+
+.solid {
+    border: 1;
     border-style: solid;
 }
-
-h2 {
-    border-style: dotted;
+.solidtext {
+    color:red;
 }
 
-h3 {
-    border-style: double;
+.double {
+    border:1;
+    border-style:double;
 }
 
-h4 {
+.doubletext {
+    color:red;
+}
+
+.groove {
+    border:1;
+    border-style:groove;
+}
+
+.groovetext {
+    color:red;
+}
+.ridge {
+    border:1;
+    border-style:ridge;
+}
+
+.ridgetext {
+    color:red;
+}
+
+.inset {
+    border:1;
+    border-style:inset;
+}
+
+.insettext {
+    color:red;
+}
+
+.outset {
+    border:1;
     border-style: outset;
 }
 
-h5 {
-    border-style: dotted dashed double;
+.outset {
+    color:red;
 }
-
-h6 {
-    border-style: inset;
-}
-
-p {
-    border: 2px solid red;
+.pirmasremelis {
+    border: 3px solid red;
     padding: 5px;
-    border-radius: 20px 10px;
-  }
-  article {
-    border: 5px solid green;
+    width: 250px;
+    height: 150px;
+    align-items: left;
+    border-radius: 90px;
+    background-color: rgb(131, 234, 131);
+    margin:1px;
+    text-indent: 25px;
+}
+
+.antrasremelis {
+    border: 3px solid red;
     padding: 5px;
     margin-left: 200px;
-    width: 200px;
-    height: 100px;
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 25px;
-  }
+    width: 250px;
+    height: 150px;
+    align-items: left;
+    text-align: ;
+    border-radius: 25% 10%;
+    background-color: #FFA000;
+    margin:1px;
+    text-indent: 25px;
+}
+
+
+.treciasremelis {
+    border: 3px solid red;
+    padding: 5px;
+    margin-left: 200px;
+    width: 250px;
+    height: 150px;
+    align-items: left;
+    text-align: ;
+    border-radius: 35px 10em 10%;
+    background-color: #00FFFF;
+    margin:1px;
+    text-indent: 25px;
+}
+
+.ketvirtasremelis {
+    border: 3px solid red;
+    padding: 5px;
+    margin-left: 200px;
+    width: 250px;
+    height: 150px;
+    align-items: left;
+    border-radius: 50px 50% 50cm 50em;
+    background-color: #9ED9E7;
+    margin:1px;
+    text-indent: 25px;
+}
+
+
